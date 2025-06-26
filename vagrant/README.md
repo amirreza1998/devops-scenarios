@@ -1,4 +1,10 @@
 # Installing Vagrant/Packer on Ubuntu/Debian
+
+This directory contains Vagrant configurations for setting up various development environments and virtual machines.
+
+## 📋 Overview
+
+Vagrant is a tool for building and managing virtual machine environments in a single workflow. The configurations in this folder provide ready-to-use environments for different development scenarios.
 ### Add the HashiCorp GPG key.
 ```bash
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
@@ -33,6 +39,32 @@ Vagrant.configure("2") do |config|
   config.vm.box = "bento/debian-12"
 end
 ```
+### Basic Usage
+
+1. **Navigate to desired configuration:**
+   ```bash
+   cd vagrant/basic-ubuntu
+   ```
+
+2. **Start the VM:**
+   ```bash
+   vagrant up
+   ```
+
+3. **SSH into the VM:**
+   ```bash
+   vagrant ssh
+   ```
+
+4. **Stop the VM:**
+   ```bash
+   vagrant halt
+   ```
+
+5. **Destroy the VM:**
+   ```bash
+   vagrant destroy
+   ```
 
 # Building Boxes
 ### Requirements: install packer, vagrant and virtualbox
