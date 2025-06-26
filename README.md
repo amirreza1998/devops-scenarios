@@ -8,6 +8,10 @@ A comprehensive collection of DevOps projects, automation scenarios, and configu
 
 This repository serves as a centralized hub for various DevOps tools, containerization scenarios, and infrastructure automation scripts. Whether you're looking to spin up a development environment with Vagrant, deploy a WordPress site with Docker, or explore different configuration management approaches, you'll find practical, ready-to-use solutions here.
 
+## 🔑 SSH Public Key
+
+My public SSH key is available in this repository: [`id_rsa.pub`](./id_rsa.pub)
+
 ## 🏗️ Repository Structure
 
 | Folder | Description | Technologies | Status |
