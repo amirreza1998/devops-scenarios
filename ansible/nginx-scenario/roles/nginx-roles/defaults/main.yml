@@ -1,0 +1,6 @@
+---
+# defaults file for nginx-roles
+#site name variables
+sub: web1
+domain: pixelino
+tld: ir

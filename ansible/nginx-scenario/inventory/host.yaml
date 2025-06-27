@@ -1,0 +1,12 @@
+all:
+  children:
+    nginx-servers:
+      vars:
+        ansible_user: amirreza14
+        ansible_port: 22
+        #observability_method:none
+      hosts:
+        web-service:
+          ansible_host: 172.210.33.224
+
+  
